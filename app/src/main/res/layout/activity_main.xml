@@ -37,7 +37,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="409dp"
+        android:layout_width="410dp"
         android:layout_height="663dp"
         android:orientation="vertical"
         android:weightSum="100"
@@ -58,7 +58,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="15"
             android:orientation="horizontal"
             android:weightSum="100">
@@ -79,6 +79,7 @@
 
                 <TextView
                     android:id="@+id/textView3"
+                    style="@style/TextoBoton"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
@@ -101,6 +102,7 @@
 
                 <TextView
                     android:id="@+id/textView4"
+                    style="@style/TextoBoton"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
@@ -123,6 +125,7 @@
 
                 <TextView
                     android:id="@+id/textView5"
+                    style="@style/TextoBoton"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
@@ -145,6 +148,7 @@
 
                 <TextView
                     android:id="@+id/textView6"
+                    style="@style/TextoBoton"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
@@ -155,7 +159,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="15"
             android:orientation="horizontal"
             android:weightSum="100">
@@ -176,6 +180,7 @@
 
                 <TextView
                     android:id="@+id/textView7"
+                    style="@style/TextoBoton"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
@@ -198,6 +203,7 @@
 
                 <TextView
                     android:id="@+id/textView8"
+                    style="@style/TextoBoton"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
@@ -220,6 +226,7 @@
 
                 <TextView
                     android:id="@+id/textView9"
+                    style="@style/TextoBoton"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
@@ -242,6 +249,62 @@
 
                 <TextView
                     android:id="@+id/textView10"
+                    style="@style/TextoBoton"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:text="TextView" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="30"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="80"
+                    android:src="@drawable/ic_icons8_eye_128" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    style="@style/TextoBoton"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="80"
+                    android:src="@drawable/ic_icons8_money_bag_100" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    style="@style/TextoBoton"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
