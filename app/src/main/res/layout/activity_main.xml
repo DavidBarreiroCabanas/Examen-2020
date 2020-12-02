@@ -77,6 +77,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_weight="80"
                     android:background="@color/color3"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_rocking_chair_80" />
 
                 <TextView
@@ -102,6 +103,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_weight="80"
                     android:backgroundTint="@color/color1"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_casa" />
 
                 <TextView
@@ -127,6 +129,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_weight="80"
                     android:backgroundTint="@color/color1"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_car_100" />
 
                 <TextView
@@ -152,6 +155,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_weight="80"
                     android:backgroundTint="@color/color1"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_family_100" />
 
                 <TextView
@@ -186,6 +190,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_weight="80"
                     android:backgroundTint="@color/color1"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_donate_64" />
 
                 <TextView
@@ -211,6 +216,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_weight="80"
                     android:backgroundTint="@color/color1"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_heart_health_100" />
 
                 <TextView
@@ -236,6 +242,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_weight="80"
                     android:backgroundTint="@color/color1"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_casa" />
 
                 <TextView
@@ -261,6 +268,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_weight="80"
                     android:backgroundTint="@color/color1"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_rocking_chair_80" />
 
                 <TextView
@@ -290,10 +298,11 @@
                 android:weightSum="100">
 
                 <ImageButton
-                    android:id="@+id/imageButton10"
+                    android:id="@+id/act_main_btn_track"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="80"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_eye_128" />
 
                 <TextView
@@ -314,10 +323,11 @@
                 android:weightSum="100">
 
                 <ImageButton
-                    android:id="@+id/imageButton11"
+                    android:id="@+id/act_main_btn_claim"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="80"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_money_bag_100" />
 
                 <TextView
@@ -358,6 +368,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="35"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/ic_icons8_grandfather_100" />
 
                 <TextView
