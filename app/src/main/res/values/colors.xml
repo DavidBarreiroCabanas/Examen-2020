@@ -4,5 +4,9 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="negro">#000000</color>
-    <color name="aqua">##008080</color>
+    <color name="color1">#d0d5fe</color>
+    <color name="color2">#f5f5fd</color>
+    <color name="color3">#acb6ff</color>
+    <color name="color4">#7c7c80</color>
+
 </resources>

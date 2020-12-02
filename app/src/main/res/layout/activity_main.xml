@@ -31,7 +31,7 @@
             android:id="@+id/imageView"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="25"
+            android:layout_weight="150"
             android:src="@drawable/ic_user" />
     </LinearLayout>
 
@@ -51,8 +51,8 @@
             style="@style/Titulo"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginTop="20dp"
-            android:layout_weight="5"
+            android:layout_marginTop="15dp"
+            android:layout_weight="8"
             android:text="@string/act_main_titulo" />
 
         <LinearLayout
@@ -83,7 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/act_main_life" />
             </LinearLayout>
 
             <LinearLayout
@@ -106,7 +106,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/act_main_home" />
             </LinearLayout>
 
             <LinearLayout
@@ -129,7 +129,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/act_main_vehiculo" />
             </LinearLayout>
 
             <LinearLayout
@@ -152,7 +152,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/act_main_family" />
             </LinearLayout>
         </LinearLayout>
 
@@ -184,7 +184,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/act_main_investiment" />
             </LinearLayout>
 
             <LinearLayout
@@ -207,7 +207,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/act_main_health" />
             </LinearLayout>
 
             <LinearLayout
@@ -230,7 +230,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/act_main_retirement" />
             </LinearLayout>
 
             <LinearLayout
@@ -253,15 +253,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/act_main_travel" />
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginHorizontal="55dp"
             android:layout_marginTop="15dp"
-            android:layout_weight="30"
+            android:layout_weight="35"
             android:orientation="horizontal"
             android:weightSum="100">
 
@@ -285,12 +286,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/track_you_claim" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="50"
                 android:orientation="vertical"
                 android:weightSum="100">
@@ -308,7 +310,46 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="20"
-                    android:text="TextView" />
+                    android:text="@string/claim_process" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="55dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="30"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nueva_actu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="50"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="35"
+                    android:src="@drawable/ic_icons8_grandfather_100" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="65"
+                    android:text="@string/txt1_update" />
             </LinearLayout>
         </LinearLayout>
 

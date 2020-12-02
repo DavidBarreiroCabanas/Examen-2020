@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Examen-2020</string>
     <string name="act_main_titulo">Insurance Policy</string>
+    <string name="act_main_life">Life-Team</string>
+    <string name="act_main_home">Home</string>
+    <string name="act_main_vehiculo">Vehicle</string>
+    <string name="act_main_family">Family</string>
+    <string name="act_main_investiment">Investiment</string>
+    <string name="act_main_health">Health</string>
+    <string name="act_main_retirement">Retirement</string>
+    <string name="act_main_travel">Travel</string>
+    <string name="nueva_actu">New Update</string>
+    <string name="track_you_claim">Track You Claims</string>
+    <string name="claim_process">Claim Process</string>
+    <string name="txt1_update">Three commom financial mistakes millenials make and how to avoid them</string>
 </resources>
